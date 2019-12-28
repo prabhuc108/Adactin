@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 193300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Successfull login into the adactin application with valid credential",
+        "description": "",
+        "id": "login-functionality-for-adactin-application;successfull-login-into-the-adactin-application-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 187300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2796208600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter application url",
+            "match": {
+              "location": "Login.user_enter_application_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 179531800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"Prabhuvenkat\" as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prabhuvenkat",
+                  "offset": 12
+                }
+              ],
+              "location": "Login.user_enter_as_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106474100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"prabhu9619\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prabhu9619",
+                  "offset": 12
+                }
+              ],
+              "location": "Login.user_enter_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1134175900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verify the username in the homepage",
+            "match": {
+              "location": "Login.Prabhuvenkat()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SampleSuccessBuild"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality for adactin application",
+    "description": "",
+    "id": "login-functionality-for-adactin-application",
+    "keyword": "Feature",
+    "uri": "AdactinApplication.feature"
+  }
+]
